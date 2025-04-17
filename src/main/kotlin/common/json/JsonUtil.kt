@@ -3,7 +3,7 @@ package com.example.common.json
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.Json
 
-class JsonUtil {
+object JsonUtil {
     private val json = Json {
         prettyPrint = true
         ignoreUnknownKeys = true
